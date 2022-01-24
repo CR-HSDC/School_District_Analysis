@@ -47,7 +47,7 @@ The results of the updated analysis are summarized in in *Figure 1* to *Figure 9
 **_Figure 9_:** Scores by school type
 
 
-####**How is the district summary affected?**
+#### **How is the district summary affected?**
 
 Per *Figure 1* the average math score (79.0 vs. 78.9%), % Passing Math Score (75% vs 74.8%), % Passing Reading (86 vs. 85.7%) and % Overall Passing Score (65 vs. 64.9% scores are affected).
 
