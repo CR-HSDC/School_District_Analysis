@@ -1,6 +1,6 @@
 # PyCity Schools Analysis
 
-### **Overview of PyCity School District Analysis**
+## **Overview of PyCity School District Analysis**
 The purpose of the PyCitySchools district analysis was to assess to analyze school performance of PyCity districts. Irregularities were observed among the Ninth Grade results for Thomas High School, and so these results were removed from the analysis. Schools were assessed in the following areas:
 	
 *  Top five performing schools based upon overall passing rates
@@ -15,7 +15,7 @@ Additionally, the effects of removing the St Thomas High School Ninth Grader dat
 
 	
 
-### **PyCity School District Analysis Results**
+## **PyCity School District Analysis Results**
 
 The results of the updated analysis are summarized in in *Figure 1* to *Figure 9*. Results are discussed below these figures.
 
@@ -59,35 +59,35 @@ Per *Figure 1* the average math score (79.0 vs. 78.9%), % Passing Math Score (75
 
 
 
-**How is the school summary affected?**
+### **How is the school summary affected?**
 
 Per *Figure 2* the Average Math and Readings Scores and % Passing Math, % Passing Reading and % Overall Passing scores are affected for Thomas High Scores. Results are shown on *Figure 2* and the affected results highlighted in red.
 
-**How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools**
+### **How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools**
 
 Per *Figure 3* the overall ranking of Thomas High School was unchanged from its original position. The Average Math, Reading, % Passing Math, % Passing Reading % Overall Passing Scores changed slightly as highlighted by red boxout on *Figure 3*
 
-**How does replacing the ninth-grade scores affect Math & Reading Score by grade?**
+### **How does replacing the ninth-grade scores affect Math & Reading Score by grade?**
 
 Per *Figure 4* and *Figure 5* there are no ninth grade scores for Thomas High School. "NaN" is shown for these results, due to all values being replaced by the numpy.nan() value. Calculations and analysis were not performed on these values.
 This does not affect any of the other schools, or grades in this analysis.
 
-**How does replacing the ninth-grade affect scores by school spending?**
+### **How does replacing the ninth-grade affect scores by school spending?**
 
 Per *Figure 7* average math and reading scores, and %Passing Math, % Passing Reading and % Overall Passing Scores were slightly affected, as highlighted by red boxout on *Figure 7*
 
 See **Student Note 1** above as it relates to these results; this table considered the total student and budget, based upon the rationale outlined in that note.
 
-**How does replacing the ninth-grade affect scores by school size?**
+### **How does replacing the ninth-grade affect scores by school size?**
 
 Per *Figure 8* scores by school size were unaffected by the updated analysis.
 
-**How does replacing the ninth-grade affect scores by school type?**
+### **How does replacing the ninth-grade affect scores by school type?**
 
 Per *Figure 9* scores by school type were unaffected by the updated analysis.
 
 
-### **PyCity School District Analysis Summary**
+## **PyCity School District Analysis Summary**
 
 From the above analysis, it can be seen that Average Math Score, Average Reading Score, % Passing Math, % Passing Reading and % Overall Passing were affected by the updated PyCity Schools analysis. The removal of the Thomas High School ninth grade results was responsible for this change. Results are summarized in *Figure 7* and the affected results highlighted by red boxout.
 	
