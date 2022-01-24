@@ -50,11 +50,11 @@ The results of the updated analysis are summarized in in *Figure 1* to *Figure 9
 
 Per *Figure 1* the average math score (79.0 vs. 78.9%), % Passing Math Score (75% vs 74.8%), % Passing Reading (86 vs. 85.7%) and % Overall Passing Score (65 vs. 64.9% scores are affected).
 
-***Student Note 1:***  *It is unclear from the provided notes, and starting code if the updated student count should be used throughout. If so, this will lead to inaccurate statistics (e.g. total budgets would be calculated based on all students, but student count would be less the Thomas High Ninth Graders.For example in cell 7 of the start code the following code is provided, which is not listed as a required step:*
+***Student Note 1:***  *It is unclear from the provided notes, and starting code if the updated student count should be used throughout. If so, this will lead to inaccurate statistics (e.g. total budgets would be calculated based on all students, but student count would be less the Thomas High Ninth Graders). For example in cell 7 of the starting code the following code is provided, which is not listed as a required step:*
 
 ### **total-budget = school-data-df["budget"].sum()**
 
-*This will calculate the budget for all students. For this reason and to provide meaningful results, the total student count for Thomas High School is used. Otherwise there is the potential for confusion and inaccurate results. Cell 13 of the starting code, which assembles the district_summary_df dataframe inserts the total_budget based on all students, and use the student_count variable. For this reason the total student count (including Thomas High School Ninth graders) was used, and all results discussed herein reflect that.*
+*This will calculate the budget for all students. For this reason and to provide meaningful results, the total student count for Thomas High School is used. Otherwise there is the potential for confusion and inaccurate results. Cell 13 of the starting code, which assembles the district_summary_df dataframe inserts the total_budget based on all students, and use the student_count variable. For this reason the total student count (including Thomas High School Ninth graders) was used, and all results discussed herein reflect that. For the purposes of calculating math/reading avreage the adj_student_count variable was used and is available for viewing in the PyCitySchools_Challenge source code*
 
 ### **How is the school summary affected?**
 
@@ -62,18 +62,18 @@ Per *Figure 2* the Average Math and Readings Scores and % Passing Math, % Passin
 
 ### **How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools**
 
-Per *Figure 3* the overall ranking of Thomas High School was unchanged from its original position. The Average Math, Reading, % Passing Math, % Passing Reading % Overall Passing Scores changed slightly as highlighted by red boxout on *Figure 3*
+Per *Figure 3* the overall ranking of Thomas High School was unchanged from its original position. The Average Math, Reading, % Passing Math, % Passing Reading and % Overall Passing Scores changed slightly as highlighted by red boxout on *Figure 3*
 
 ### **How does replacing the ninth-grade scores affect Math & Reading Score by grade?**
 
-Per *Figure 4* and *Figure 5* there are no ninth grade scores for Thomas High School. "NaN" is shown for these results, due to all values being replaced by the numpy.nan() value. Calculations and analysis were not performed on these values.
+Per *Figure 4* and *Figure 5* there are no ninth grade scores for Thomas High School. "NaN" is shown for these results, this is due to all values being replaced by the numpy.nan() value. Calculations and analysis were not performed on these values.
 This does not affect any of the other schools, or grades in this analysis.
 
 ### **How does replacing the ninth-grade affect scores by school spending?**
 
-Per *Figure 7* average math and reading scores, and %Passing Math, % Passing Reading and % Overall Passing Scores were slightly affected, as highlighted by red boxout on *Figure 7*
+Per *Figure 7* average math and reading scores, and % Passing Math, % Passing Reading and % Overall Passing Scores were slightly affected, as highlighted by red boxout on *Figure 7*
 
-See **Student Note 1** above as it relates to these results; this table considered the total student and budget, based upon the rationale outlined in that note.
+See **Student Note 1** above as it relates to these results; this table considered the total student count and budget, based upon the rationale outlined in that note.
 
 ### **How does replacing the ninth-grade affect scores by school size?**
 
