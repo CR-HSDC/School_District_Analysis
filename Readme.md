@@ -1,7 +1,7 @@
 # PyCity Schools District Analysis
 
 ## **Overview of PyCity School District Analysis**
-The purpose of the PyCitySchools district analysis was to assess to analyze school performance of PyCity districts. Irregularities were observed among the Ninth Grade results for Thomas High School, and so these results were removed from the analysis. Schools were assessed in the following areas:
+The purpose of the PyCitySchools district analysis was to assess and analyze school performance of PyCity districts. Irregularities were observed among the Ninth Grade results for Thomas High School, and so these results were removed from the analysis. Schools were assessed in the following areas:
 	
 *  Top five performing schools based upon overall passing rates
 *  Bottom five performing schools based upon overall passing rates
@@ -11,7 +11,7 @@ The purpose of the PyCitySchools district analysis was to assess to analyze scho
 *  Scores by school size
 *  Scores by school type
 
-Additionally, the effects of removing the St Thomas High School Ninth Grader data is also discussed, where relevant. All of this findings are discussed within the "PyCity School District Analysis Results" section below.
+Additionally, the effects of removing the St Thomas High School Ninth Grader data is sicussed, where relevant. All of these findings are discussed within the "PyCity School District Analysis Results" section below.
 
 ## **PyCity School District Analysis Results**
 
@@ -45,7 +45,6 @@ The results of the updated analysis are summarized in in *Figure 1* to *Figure 9
 
 ![Figure 9](https://github.com/CR-HSDC/School_District_Analysis/blob/main/resources/9_FinalScoreBySchoolType.png)
 **_Figure 9_:** Scores by school type
-
 
 ### **How is the district summary affected?**
 
