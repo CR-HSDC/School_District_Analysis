@@ -32,7 +32,6 @@ The results of the updated analysis are summarized in in *Figure 1* to *Figure 9
 **_Figure 4_:** Bottom 5 schools, based on overall passing rate
 
 ![Figure 5](https://github.com/CR-HSDC/School_District_Analysis/blob/main/resources/5_AverageMath.png)
-
 **_Figure 5_:** Average math score, for each grade level for each school
 
 ![Figure 6](https://github.com/CR-HSDC/School_District_Analysis/blob/main/resources/6_AverageReading.png)
