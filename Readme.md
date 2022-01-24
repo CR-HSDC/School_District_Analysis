@@ -1,4 +1,4 @@
-# Election Audit
+# PyCity Schools District Analysis
 
 ## **Overview of PyCity School District Analysis**
 The purpose of the PyCitySchools district analysis was to assess to analyze school performance of PyCity districts. Irregularities were observed among the Ninth Grade results for Thomas High School, and so these results were removed from the analysis. Schools were assessed in the following areas:
